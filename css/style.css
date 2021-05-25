@@ -503,7 +503,7 @@ body._lock {
 }
 
 .intro-slider__item {
-  height: 570px;
+  padding: 0px 0px 15vw 0px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -2136,10 +2136,6 @@ body._lock {
     margin: 30px 0px 0px 0px;
   }
 
-  .intro-slider__item {
-    height: 450px;
-  }
-
   .brand__items {
     -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
@@ -2401,10 +2397,6 @@ body._lock {
     max-width: 100%;
   }
 
-  .intro-slider__item {
-    height: 400px;
-  }
-
   .intro-slider__item-body {
     padding: 30px 0px 0px 0px;
   }
@@ -2651,10 +2643,6 @@ body._lock {
 
   .text {
     font-size: 13px;
-  }
-
-  .intro-slider__item {
-    height: 350px;
   }
 
   .questions__top-title {
