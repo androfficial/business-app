@@ -226,6 +226,13 @@ body._lock {
   padding: 0 15px;
 }
 
+.page {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 80px 0px 0px 0px;
+}
+
 .footer {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -353,8 +360,52 @@ body._lock {
   color: #8D96BD;
 }
 
-.header {
+.slick-slide:active,
+.slick-slide:focus {
+  outline: none;
+}
+
+.slick-dots {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
   background-color: #fff;
+  font-size: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #000;
+}
+
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .header__container {
@@ -1641,49 +1692,6 @@ body._lock {
 
 .social-footer__getstarted {
   margin: 0px 0px 0px 45px;
-}
-
-.slick-slide:active,
-.slick-slide:focus {
-  outline: none;
-}
-
-.slick-dots {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.slick-dots li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.slick-dots li button {
-  width: 11px;
-  height: 11px;
-  border-radius: 50%;
-  background-color: #fff;
-  font-size: 0;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.slick-dots li.slick-active button {
-  background-color: #000;
-}
-
-.page {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
 }
 
 @media (min-width: 991.98px) {
