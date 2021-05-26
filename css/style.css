@@ -2394,6 +2394,10 @@ body._lock {
 }
 
 @media (max-width: 479.98px) {
+  .intro-slider .slick-dots {
+    bottom: 20px;
+  }
+
   .brand {
     padding: 30px 0;
   }
