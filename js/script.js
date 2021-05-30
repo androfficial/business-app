@@ -30,6 +30,14 @@ $(function() {
 		dots: true,
 		autoplay: true,
 		autoplaySpeed: 4000,
+		responsive: [
+		{
+			breakpoint: 993,
+			settings: {
+				arrows: false
+			}
+		},
+		]
 	});
 })
 new Swiper('.customers__container-slider', {
