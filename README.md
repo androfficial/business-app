@@ -3,6 +3,7 @@
 * CSS Flexbox
 * CSS Grid Layout
 * JavaScript
+* SCSS
 * Fslightbox
 * BEM methodology
 * Responsive, elastic and cross-browser layout.
