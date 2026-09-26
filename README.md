@@ -1,8 +1,8 @@
-# Business App
+# Business
 
 Landing page for a productivity app with autoplaying sliders, a photo lightbox and an FAQ accordion. Built in May 2021 as a learning project.
 
-**Live demo:** [androfficial.github.io/business-app](https://androfficial.github.io/business-app/)
+**Live demo:** [androfficial.github.io/html-business](https://androfficial.github.io/html-business/)
 
 ## Features
 
@@ -26,8 +26,8 @@ Landing page for a productivity app with autoplaying sliders, a photo lightbox a
 The repository holds the compiled site, with no dependencies and no build step, so a browser is all it needs.
 
 ```bash
-git clone https://github.com/androfficial/business-app.git
-cd business-app
+git clone https://github.com/androfficial/html-business.git
+cd html-business
 ```
 
 Then open `index.html` in a browser.
